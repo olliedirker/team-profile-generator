@@ -1,0 +1,25 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "A terminal application using Node.js command-line application that takes in information about employees given on a software team, then generates an HTML page within the dist folder that displays the info for each member. Testing is needed so you have to write code to test the app.",
+    "main": "index.js",
+    "directories": {
+      "lib": "lib"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+    },
+    "dependencies": {
+      "bootstrap-icons": "^1.7.1",
+      "email-validator": "^2.0.4",
+      "inquirer": "^8.2.0"
+    },
+    "devDependencies": {
+      "jest": "^27.3.1"
+    }
+  }
